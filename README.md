@@ -20,7 +20,7 @@ Some example data from Airbus:
 </p>
 
 ## Data instructions
-Download and include the files on the [Airbus](https://www.research-collection.ethz.ch/handle/20.500.11850/415151) website. The notebooks are designed to extract data out of the /dataset folder (replace the file paths with the appropriate ones on your local system if you wish to run the notebooks yourself).
+Download and include the files on the [Airbus](https://www.research-collection.ethz.ch/handle/20.500.11850/415151) website. Create a folder named dataset at the top level of the repository, and add the files into the dataset folder. The notebooks are designed to extract data out of the dataset folder (replace the file paths with the appropriate ones on your local system if you wish to run the notebooks yourself).
 
 # Methods
 The 1D convolution network uses layers of weighted sliding windows to compute numerical features. By combining multiple layers, max pooling and dense layers to combine features into class predictions, 1D convolution networks leverage the power of deep neural learning to perform categorisation even with noisy time series data that would otherwise be difficult to work with. 
