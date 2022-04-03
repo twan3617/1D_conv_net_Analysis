@@ -15,7 +15,9 @@ The first data set we will be working with is the publicly available Airbus heli
 
 Some example data from Airbus: 
 
-[Image](/assets_images/helicopter_data_example.png)
+<p float="none">
+  <img src="assets_images/helicopter_data_example.png?raw=true "Title"" width="400" />
+</p>
 
 ## Data instructions
 Download and include the files on the [Airbus](https://www.research-collection.ethz.ch/handle/20.500.11850/415151) website. The notebooks are designed to extract data out of the /dataset folder (replace the file paths with the appropriate ones on your local system if you wish to run the notebooks yourself).
@@ -26,5 +28,8 @@ The 1D convolution network uses layers of weighted sliding windows to compute nu
 The particular deep conv-net architecture we will be using is this: 
 
 [Network_architecture](/assets_images/1Dconvnet_architecture.jpg)
+<p float="none">
+  <img src="assets_images/1Dconvnet_architecture.jpg?raw=true "Title"" width="400" />
+</p>
 
 Please note that this repository is currently under construction!
